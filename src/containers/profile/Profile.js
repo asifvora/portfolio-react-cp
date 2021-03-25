@@ -55,7 +55,9 @@ export default function Profile() {
     if (openSource.showGithubProfile === "true") {
       getProfileData();
     }
+    // eslint-disable-next-line
   }, []);
+  
   if (
     openSource.display &&
     openSource.showGithubProfile === "true" &&
