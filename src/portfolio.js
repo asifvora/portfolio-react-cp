@@ -5,17 +5,17 @@
 import emoji from "react-easy-emoji";
 
 const illustration = {
-  animated: true // set to false to use static SVG
+  animated: false // set to false to use static SVG
 };
 
 const greeting = {
   username: "Asif Vora",
   title: "Hi all, I'm Asif",
   subTitle: emoji(
-    "I'm JavaScript Developer 🚀 having an experience of building Web with JavaScript / Reactjs / Redux / Mobx and Vuejs."
+    "I'm JavaScript Developer 🚀 having an experience of building Web Application with JavaScript / Reactjs / Redux / Mobx and Vuejs."
   ),
-  resumeLink:"",
-  displayGreeting: false // Set false to hide this section, defaults to true
+  resumeLink:"https://drive.google.com/file/d/1KjrxJCyj47TMQLMPYWktDEE6kjjX7Ik0/view?usp=sharing",
+  displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
