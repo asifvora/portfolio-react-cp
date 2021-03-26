@@ -12,7 +12,7 @@ const greeting = {
   username: "Asif Vora",
   title: "Hi all, I'm Asif",
   subTitle: emoji(
-    "I'm JavaScript Developer 🚀 having an experience of building Web Application with JavaScript / Reactjs / Redux / Mobx and Vuejs."
+    "I'm JavaScript Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / React Native / Redux / Mobx / Vue / Angular7 / TypeScript and some other cool libraries and frameworks."
   ),
   resumeLink:"https://drive.google.com/file/d/1KjrxJCyj47TMQLMPYWktDEE6kjjX7Ik0/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -25,7 +25,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/asif-vora",
   gmail: "asifvora0@gmail.com",
   // gitlab: "https://gitlab.com/",
-  // medium: "https://medium.com/@davidrakosi",
+  medium: "https://medium.com/@asifvora",
   facebook: "https://www.facebook.com/asif.vora.92",
   stackoverflow: "https://stackoverflow.com/users/7833077/asif-vora",
   instagram: 'https://www.instagram.com/007_dark_shadow/',
@@ -37,12 +37,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL JAVASCRIPT DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY FULL STACK JAVASCRIPT DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal Stacks"),
+    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Supabase.io"
     )
@@ -65,6 +65,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-sass"
     },
     {
+      skillName: "styled component",
+      fontAwesomeClassname: "fas fa-palette"
+    },
+    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -73,8 +77,24 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
+      skillName: "react native",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "angular7",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
+      skillName: "vue",
+      fontAwesomeClassname: "fab fa-vuejs"
+    },
+    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "electronjs",
+      fontAwesomeClassname: "fas fa-atom"
     },
     {
       skillName: "npm",
@@ -83,6 +103,26 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "intercom",
+      fontAwesomeClassname: "fab fa-intercom"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "gitlab",
+      fontAwesomeClassname: "fab fa-gitlab"
+    },
+    {
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "bitbucket",
+      fontAwesomeClassname: "fab fa-bitbucket"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -91,26 +131,39 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "L.J. Institute Of Engineering and Technology, Ahemedabad (GTU)",
+      logo: require("./assets/images/gtu.jpeg"),
+      subHeader: "Master of Computer Applications",
+      duration: "2015 - 2017",
+      desc: "8.21 CGPA",
+      descBullets: []
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "L.N.Patel College of COMP & MANAG, Kalyanpura (HNGU)",
+      logo: require("./assets/images/hngu.jpeg"),
+      subHeader: "Bachelor of Computer Applications",
+      duration: "2012 - 2015",
+      desc: "84.66%",
+      descBullets: []
+    },
+    {
+      schoolName: "Shree Madhymikshala, Viramgam (GHSEB)",
+      logo: require("./assets/images/gseb.jpeg"),
+      subHeader: "HSC",
+      duration: "2010 - 2012",
+      desc: "67.14%",
+      descBullets: []
+    },
+    {
+      schoolName: "New Education High School, Viramgam (GSEB)",
+      logo: require("./assets/images/gseb.jpeg"),
+      subHeader: "SSC",
+      duration: "2009 - 2010",
+      desc: "59.38%",
+      descBullets: []
     }
   ]
 };
@@ -142,10 +195,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Sr. Software Engineer",
+      company: "Simform",
+      companylogo: require("./assets/images/simform.png"),
+      date: "January 2020 – Present",
+      desc: "I'm working as a Sr. Software Engineer for building a web appliactions"
+      // descBullets: []
+    },
+    {
       role: "Software Engineer",
       company: "Simform",
       companylogo: require("./assets/images/simform.png"),
-      date: "June 2019 – Present",
+      date: "June 2019 – December 2020",
       desc: "I'm working as a Software Engineer for building a web appliactions"
       // descBullets: []
     },
@@ -172,7 +233,7 @@ To know how to get github key look at readme.md */
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "asifvora", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
