@@ -14,7 +14,7 @@ const greeting = {
   subTitle: emoji(
     "I'm JavaScript Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / React Native / Redux / Mobx / Vue / Angular7 / TypeScript and some other cool libraries and frameworks."
   ),
-  resumeLink:"https://drive.google.com/file/d/1KjrxJCyj47TMQLMPYWktDEE6kjjX7Ik0/view?usp=sharing",
+  resumeLink:"https://drive.google.com/file/d/1HSi3yA3zg7ZSjc0auiVp5d7bDz7HR6yG/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -218,7 +218,7 @@ const workExperiences = {
       desc: "I'm worked as a JavaScript Developer for building a web appliactions"
     },
     {
-      role: "Project Trainee",
+      role: "Project Intern",
       company: "Multidots",
       companylogo: require("./assets/images/multidots.jpeg"),
       date: "January 2017 – June 2017",
